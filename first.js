@@ -1,16 +1,8 @@
+let nomeDoCarro = "Ferrari"
+console.log(nomeDoCarro)
 
-let nome = "Sergio A. Barbosa Filho" //string
-let idade = 90; //number
-let cidade = "Votuporanga"
-let estado = "SP"
-let logado = true // true=on false=off
-let lista = ["ovo", "massa" , "corante"] //array
+let bolo = {produto : "bolo de leite ninho", preço : 19.99 }
+console.log(bolo)
 
-
-
-
-
-console.log(nome)
-console.log(idade)
+let cidade = "São Paulo"
 console.log(cidade)
-console.log(estado)
