@@ -1,3 +1,9 @@
-let nome = "Sergio"; console.log(nome)
-let idade = "21"; console.log(idade)
+let nome = 'Sérgio';
+
+let sobrenome = 'Antônio';
+
+
+let nomeCompleto = `${nome} ${sobrenome}`;
+
+console.log(nomeCompleto);
 
