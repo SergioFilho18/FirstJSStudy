@@ -1,9 +1,14 @@
-let nome = 'Sérgio';
+let idade = 78;
 
-let sobrenome = 'Antônio';
+if (idade <= 18) {
+    console.log("Voce é um adolescente");
+}
 
 
-let nomeCompleto = `${nome} ${sobrenome}`;
+if (idade >= 18 && idade < 60 ) {
+    console.log("Voce é um adulto");
+}
 
-console.log(nomeCompleto);
-
+if (idade > 60) {
+    console.log("Voce é um idoso");
+}
