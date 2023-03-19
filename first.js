@@ -1,14 +1,5 @@
-let idade = 78;
+let age = 90;
 
-if (idade <= 18) {
-    console.log("Voce é um adolescente");
-}
+let isAdult = ((age >=18) ? true : false);
 
-
-if (idade >= 18 && idade < 60 ) {
-    console.log("Voce é um adulto");
-}
-
-if (idade > 60) {
-    console.log("Voce é um idoso");
-}
+console.log(isAdult)
