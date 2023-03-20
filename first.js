@@ -1,5 +1,6 @@
-let age = 90;
+function nameComplet(name, secondName) {
+    return `${name} ${secondName}`;
+}
 
-let isAdult = ((age >=18) ? true : false);
-
-console.log(isAdult)
+let complet = nameComplet("Sérgio", "Filho");
+console.log('Complet: ' + complet);
