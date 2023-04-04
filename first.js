@@ -1,20 +1,9 @@
-function correctUser(user, password) {
-    if(user === 'Sérgio' && password === '123') {
-        return true;
+function addSquares(a, b){
+    function square(x){
+     return x * x;
     }
-    else {
-        return false;
-    }
+
+    return square(a) + square(b);
 }
 
-let user = 'Sérgio';
-let password = '123';
-
-let correctly = correctUser(user, password);
-
-if(correctly) {
-    console.log('Accepted Access.');
-}
-else {
-    console.log('Access Denied.')
-}
+console.log(addSquares(2, 3));
